@@ -1,0 +1,64 @@
+h1{
+  text-align: center;
+}
+#app{
+  display: flex;
+  flex-direction: column;
+}
+.buttonReinicio {
+  background-color: var(--rtc-color-6);
+  border: 1px solid var(--rtc-color-1);
+  padding: var(--rtc-padding-s);
+  border-radius: 8px;
+  width: 200px;
+  margin: auto;
+  margin-top: var(--rtc-margin-m);
+}
+.buttonReinicio:hover {
+  border: 1px solid var(--rtc-color-3);
+}
+
+.divTodoPregunta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divTodoPregunta p {
+  text-align: center;
+  margin-top: var(--rtc-margin-s);
+  padding-left: var(--rtc-padding-l);
+  padding-right: var(--rtc-padding-l);;
+}
+.divTodoPregunta div{
+  display: flex;
+  justify-content: center;
+  gap: var(--rtc-gap-xs);
+}
+.divTodoPregunta div button{
+  width: 190px;
+  height: 128px;
+  padding: var(--rtc-padding-s);
+  font-size: 12px;
+  margin-bottom: var(--rtc-margin-l);
+  margin: var(--rtc-margin-s);
+  border-radius: 8px;
+}
+.divTodoPregunta div:first-of-type{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divImgPregunta, .divImgFinal, .divImgInicio{
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  margin: var(--rtc-margin-s);
+}
+.divTodoPregunta div:first-of-type img{
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}

@@ -1,0 +1,50 @@
+.imgPPOT{
+  max-width: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  
+}
+
+.imgPPOT:hover{
+  background-color: var(--rtc-color-1);
+}
+
+.divPPOT{
+  display: flex;
+  gap:var(--rtc-gap-l);
+  justify-content: center;
+  padding: var(--rtc-padding-m);
+  margin: auto;
+  margin-top: var(--rtc-margin-l);
+  background-color: var(--rtc-color-3);
+  width: 300px;
+  border-radius: 8px;
+}
+
+.divResulyReset {
+  display: flex;
+  margin: var(--rtc-margin-l);
+  align-items: center;
+  justify-content: center;
+  gap: var(--rtc-gap-l);
+}
+
+
+
+.divResulyReset button {
+  cursor: pointer;
+  padding: var(--rtc-padding-s);
+  border-radius: 8px;
+}
+
+.divResulyReset button:hover{
+  background-color: var(--rtc-color-2);
+  color: var(--rtc-color-1);
+}
+
+.mensaje{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: var(--rtc-padding-l);
+}
